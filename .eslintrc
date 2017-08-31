@@ -1,19 +1,27 @@
 {
-  extends: "airbnb",
-  parser: "babel-eslint",
-  "plugins": [
-    "babel"
-  ],
-  rules: {
-    "newline-per-chained-call": ['error', {"ignoreChainWithDepth": 1}],
-    "babel/generator-star-spacing": 1,
-    "generator-star-spacing": 0,
-    "no-console": 0,
-    "no-unused-vars": 1,
-  },
-  "root": true,
-  "settings": {},
-  env: {
-    browser: true
-  }
+    " extends": "airbnb",
+    "parser": "babel-eslint",
+    "plugins": [
+        "babel"
+    ],
+    "rules": {
+        "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 1 }],
+        "babel/generator-star-spacing": 1,
+        "generator-star-spacing": 0,
+        "no-console": 0,
+        "no-unused-vars": 0,
+        "linebraeka - style": 0
+    },
+    "root": true,
+    "settings": {
+        "import/resolver": {
+            "jspm": {
+                "moduleDirectory": "jspm_packages"
+            },
+            "node": true
+        }
+    },
+    "env": {
+        "browser": true
+    }/
 }
