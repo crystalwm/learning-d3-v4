@@ -23,5 +23,9 @@
     },
     "env": {
         "browser": true
+<<<<<<< HEAD
     }/
+=======
+    }
+>>>>>>> ff9f0cd23afa85819397ed0cb721858d8ccef2f4
 }
