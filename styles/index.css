@@ -21,3 +21,12 @@ html, body {
   75%  {stroke: green;}
   100% {stroke: red;}
 }
+
+
+.chart {
+  background: lightgray;
+  border: 1px solid black;
+  width: 425px;
+  height: 625px;
+}
+
